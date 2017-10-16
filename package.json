@@ -15,5 +15,18 @@
     "morgan": "~1.8.1",
     "pg": "^6.1.5",
     "serve-favicon": "~2.4.2"
-  }
+  },
+  "description": "### Installation",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrobbinsd/RESTful-CRUD-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrobbinsd/RESTful-CRUD-Exercise/issues"
+  },
+  "homepage": "https://github.com/jrobbinsd/RESTful-CRUD-Exercise#readme"
 }

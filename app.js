@@ -10,8 +10,8 @@ var cartoons = require('./routes/cartoons');
 
 var app = express();
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+// // uncomment after placing your favicon in /public
+// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -37,5 +37,10 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.json(err);
 });
+
+// listener
+app.listen(1311, function() {
+	console.log('BATMAN!!!');
+})
 
 module.exports = app;
